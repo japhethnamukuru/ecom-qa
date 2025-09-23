@@ -42,6 +42,6 @@ mvn clean verify site
 
 Example report screenshots:
 
-![Surefire Report Screenshot](assets/surefire-report.png)
-![Surefire Report Screenshot](assets/surefire-report-1.png)
+![Surefire Report Screenshot](ecom-qa/assets/surefire-report.png)
+![Surefire Report Screenshot](ecom-qa/assets/surefire-report-1.png)
 
