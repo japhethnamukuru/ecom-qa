@@ -40,7 +40,8 @@ mvn clean verify site
 
 - **Surefire HTML Report**: `target/site/surefire-report.html`
 
-Example report screenshot:
+Example report screenshots:
 
 ![Surefire Report Screenshot](assets/surefire-report.png)
+![Surefire Report Screenshot](assets/surefire-report-1.png)
 
