@@ -1,9 +1,17 @@
-# SauceDemo E2E Automated Tests (Java + Selenium + JUnit 5 + Maven)
+# SauceDemo E2E Manual and Automated Tests (Java + Selenium + JUnit 5 + Maven)
+## 📝 Manual Test Cases
 
-This project contains end-to-end automated test cases for [saucedemo.com](https://www.saucedemo.com/).  
-It uses **Java 17, Selenium WebDriver, JUnit 5, and Maven**.
+In addition to automated tests, this project includes **manual test cases** covering edge cases and scenarios not yet automated. These are located in the `/manual` directory.
 
-## ✅ Test Cases Implemented
+Some examples include:
+- Verifying product details display correctly
+- Testing error handling on invalid form inputs
+
+---
+
+The end-to-end automated test cases for [saucedemo.com](https://www.saucedemo.com/) uses **Java 17, Selenium WebDriver, JUnit 5, and Maven**.
+
+## ✅ Automation Test Cases Implemented
 1. **Login**
     - `testValidLogin`: Verify valid login works.
     - `testInvalidLogin_ShowsError`: Verify invalid login shows error message.
