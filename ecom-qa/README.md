@@ -52,4 +52,4 @@ Example report screenshots:
 
 ![Surefire Report Screenshot](assets/surefire-report.png)
 ![Surefire Report Screenshot](assets/surefire-report-1.png)
-
+![Surefire Report Screenshot](assets/surefire-report-2.png)
