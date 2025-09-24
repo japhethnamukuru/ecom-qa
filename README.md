@@ -44,4 +44,4 @@ Example report screenshots:
 
 ![Surefire Report Screenshot](ecom-qa/assets/surefire-report.png)
 ![Surefire Report Screenshot](ecom-qa/assets/surefire-report-1.png)
-
+![Surefire Report Screenshot](ecom-qa/assets/surefire-report-2.png)
