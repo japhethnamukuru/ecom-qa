@@ -91,18 +91,18 @@ public class SauceDemoE2ETests extends BaseTest {
         LoginPage login = new LoginPage(driver);
         login.login("standard_user","secret_sauce");
 
-        // open burger menu and click logout
+//         open burger menu and click logout
         org.openqa.selenium.By menuBtn = org.openqa.selenium.By.id("react-burger-menu-btn");
         org.openqa.selenium.By logoutLink = org.openqa.selenium.By.id("logout_sidebar_link");
 
         driver.findElement(menuBtn).click();
 
-        // small wait until link visible
+//        wait until link visible
         new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(5))
                 .until(org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable(logoutLink));
         driver.findElement(logoutLink).click();
 
-        // after logout, login button should be visible again
+//        after logout, login button should be visible again
         org.openqa.selenium.By loginBtn = org.openqa.selenium.By.id("login-button");
         new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(5))
                 .until(org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated(loginBtn));
@@ -110,7 +110,7 @@ public class SauceDemoE2ETests extends BaseTest {
         Assertions.assertTrue(driver.getCurrentUrl().contains("saucedemo.com"), "Should be back at login page after logout");
     }
 
-    // small helper
+    //  helper fun
     private boolean isSortedAscending(List<Double> list) {
         for (int i = 1; i < list.size(); i++) {
             if (list.get(i) < list.get(i - 1)) return false;
